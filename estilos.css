@@ -52,7 +52,7 @@ nav img{
 }
 .nav-menu ul{
     list-style: none;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: var(--josefin);
     display: grid;
     grid-template-rows: repeat(5,1fr);
@@ -60,8 +60,11 @@ nav img{
     font-size: 1.5em;
     text-transform: uppercase;
 }
-.nav-menu ul li{
+.nav-menu ul a{
     padding-left: 1em;
+    color: var(--white);
+    text-decoration: none;
+    font-size: 2.5em;
 }
 .header-content{
     text-transform: uppercase;
@@ -95,15 +98,17 @@ main{
     width: 100%;
 }
 .main-description-text{
-    text-align: center;
+    
     margin-bottom: 2em;
+    padding: auto;
 }
 .main-description-text h2{
     font-family: var(--josefin);
     text-transform: uppercase;
     font-size: var(--sizesubtitle);
     font-weight: 300;
-    margin-bottom: 0.7em;
+    text-align: center;
+    margin-bottom: 0.9em;
 }
 .main-description-text p{
     font-family: var(--alata);
@@ -111,6 +116,7 @@ main{
     padding: 0 1.5em;
     font-size: 0.9em;
     line-height: 1.7em;
+    text-align: justify;
 }
 .main-description-creations{
     margin-top: 5em;
@@ -125,7 +131,7 @@ main{
 }
 .main-description-creations-sections{
     display: grid;
-    grid-template-rows: repeat(8,1fr);
+    
     gap: 2.4em;
 }
 .section-card{
@@ -332,12 +338,13 @@ footer{
         text-align: left;
         margin-bottom: 0;
         max-width: 37em;
-        position: absolute;
+        position:absolute;
         z-index: 1;
         padding: 5em;
         background-color: var(--white);
         left: 32em;
         top: 52em;
+        background-color: rgb(223, 241, 238);
     }
     .main-description-text h2{
         font-size: 2em;
@@ -348,7 +355,7 @@ footer{
         line-height: 1.7em;
     }
     .main-description-creations{
-        margin-top: 9em;
+        margin-top: 1em;
     }
     .main-description-creations h2{
         font-size: 3em;
