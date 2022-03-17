@@ -139,13 +139,18 @@ main{
     background-size: cover;
     position: relative;
 }
-.deep-earth{
+.gents{
     background-image: url("boys-cycle.jpg");
 }
-.night-arcade{
+
+a:link{
+    text-decoration: none;
+}
+
+.ladies{
     background-image: url("ladies.jpg");
 }
-.soccer{
+.shuttle{
     background-image: url("shuttle.jpg");
 }
 .grid{
@@ -386,13 +391,13 @@ footer{
         position: absolute;
         background-color: rgba(255, 255, 255, 0.432);
     }
-    .deep-earth{
+    .gents{
         background-image: url("boys-cycle.jpg");
     }
-    .night-arcade{
+    .ladies{
         background-image: url("ladies.jpg");
     }
-    .soccer{
+    .shuttle{
         background-image: url("shuttle.jpg");
     }
     .grid{
